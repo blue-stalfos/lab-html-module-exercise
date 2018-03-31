@@ -47,6 +47,8 @@ header {
 
 .col { float: left; }
 
+.bear {float: right; }
+
 .col-3 { width: 30%; }
 
 .container {
@@ -66,4 +68,23 @@ header {
 
 .s3 {
 	color: black;
+}
+
+.logo {
+	margin: 5px;
+}
+
+.slot-form-container {
+	width: 75%;
+	margin: 0 auto 0 auto;
+	font-size: 1em;
+	text-align: left;
+	background-color: #273547;
+}
+
+.slot-form-container input, .slot-form-container select {
+	height: 35px;
+	outline: black;
+	padding: 2px;
+	width: 100%;
 }
